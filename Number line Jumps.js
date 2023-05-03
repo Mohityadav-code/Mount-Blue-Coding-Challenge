@@ -28,6 +28,7 @@ function kangaroo(x1, v1, x2, v2) {
       return "NO";
     }
   }
+  // checking if they will ever meet 
   const distance = Math.abs(x1 - x2);
   const relativeSpeed = Math.abs(v1 - v2);
   if (distance % relativeSpeed === 0) {
